@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manipulations</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css”/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+</head>
+
+<body>
+<div class="blurr">
+    <header>
+        <nav>
+            <div class="child">
+                <!-- <span class="childtext">&larr;</span>           -->
+                <i class="bi bi-arrow-left"></i>
+                <h2>Child Settings</h2> 
+            </div>
+            <img src="images/boy.png" alt="" class="boyimg">
+        </nav>
+    </header>
+
+    <section class="main">
+        <h3 class="blocktext">Blocked Apps</h3>
+    </section>
+    <section class="blockedApps">
+        
+        
+    
+        <div class="appdetails">
+        <img src="images/phone.png" alt="" class="phone">
+
+            
+            <h3 class="appname">Phone by Google <br> <small>Tools</small></h3>
+            
+       
+       </div>
+        
+    
+        <div class="clock-toggle">
+            <img class="time-clock"  src="images/time.png" alt="">
+            <label class="switch">
+                <input type="checkbox" float="right">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </section>
+    <section class="main">
+        <h3 class="blocktext">Apps with Time Limits</h3>
+    </section>
+
+    <div class="rantext">
+    No time limit was selected for any app.
+
+    </div>
+
+    <section class="main">
+        <h3 class="blocktext">Allowed Apps</h3>
+    </section>
+
+    <section class="blockedApps">
+        
+        
+    
+        <div class="appdetails">
+        <img src="images/google.png" alt="" class="phone">
+
+            
+            <h3 class="appname">Google <br> <small>Tools</small></h3>
+            
+       
+       </div>
+        
+    
+        <div class="clock-toggle">
+            <img class="time-clock" src="images/time.png" alt="">
+            <label class="switch">
+                <input type="checkbox" float="right">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </section>
+    <hr>
+</div>
+    <!-- <h1>JavaScript Random Quote generator</h1>
+
+    <p>Quote1</p>
+    <p class="sai">Author</p>
+
+    <button>Next Quote</button> -->
+
+
+    <!------------PopUP box--------------->
+
+
+    <div id="box">
+        <button class="close">X</button>
+
+        <div class="cont1">
+            <h3 class="block">Block App</h3> <label class="switch">
+                <input type="checkbox" float="right">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <div class="cont2">
+            <div class="limit">
+                <h3>Limit Time </h3>
+
+                <label class="switch">
+                    <input type="checkbox" float="right">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="text">
+                <h3 class="limiText">Limit to see the time</h3>
+            </div>
+            <div class="date" style="display: none;">
+                <h4 class="text-week">Weekdays</h4>
+                <span class="weekday">
+                    <h4 class="time">Set The Time</h4>
+                </span>
+
+                <div class="date"><input class="timeset" type="time"></div>
+
+            </div>
+            <div class="weekend" style="display:none">
+                <h4 class="text-week">Weekends</h4>
+                <span class="SETweekend">
+                    <h4 class="times">Set The Time</h4>
+                </span>
+
+                <div class="date"><input class="timesett" type="time"></div>
+
+            </div>
+            <div class="backk">
+                <button class="back">Back</button>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>

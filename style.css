@@ -1,0 +1,203 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .cont1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6%;
+
+}
+/* .cont2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+div#box {
+    background-color: cadetblue;
+    width: 15%;
+}
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3%;
+}
+.weekend{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3%;
+
+
+}
+
+.limit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  
+  background-color: #01b2c1;
+  padding: 0;
+  margin: 0;
+}
+header{
+  background-color: #01b2c1;
+  /* padding: 16px 30px; */
+
+}
+
+.child {
+  display: flex;
+  align-items: center;
+ font-weight: bolder;
+ font-size: x-large;
+  margin-left: 2%;
+  color: white;
+}
+span.childtext {
+  font-size: xxx-large;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0%;
+  margin: 0;
+}
+
+img.boyimg {
+  width: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+h3.blocktext {
+  padding: 1%;
+  color: #00B2BF;
+  margin: 0;
+  font-weight: 300;
+  margin-left: 3%; 
+  font-size: x-large;
+}
+
+section.main {
+  background-color: #E7EDF3;
+}
+
+img.phone {
+  width: 50px;
+  height: 50px;
+}
+
+section.blockedApps {
+  display: flex;
+  padding: 1%;
+  align-items: center;
+  justify-content: space-between;
+}
+.appdetails {
+  margin-left: 2%;
+}
+h3.appname {
+  margin: 0;
+}
+h4{
+  margin: 0;
+}
+.appdetails {
+  display: flex;
+  width: 22%;
+  gap: 9%;
+}
+.clock-toggle {
+  display: flex;
+  width: 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+.rantext {
+  padding: 1%;
+  font-size: x-large;
+  margin-left: 3%;
+}
+
+hr {
+  width: 90%;
+  padding: 0;
+  margin: 0;
+  margin-left: 6%;
+  border: grey;
+}
+i.bi.bi-arrow-left {
+  font-size: xx-large;
+}
